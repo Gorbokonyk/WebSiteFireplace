@@ -32,3 +32,11 @@ body {
     min-height: 10vh;
     background: #666;
 }
+@media(max-width: 750px){
+    .header{
+        flex-direction: column;
+    }
+    .home{
+        margin:0;
+    }
+}
