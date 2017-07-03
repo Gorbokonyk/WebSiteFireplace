@@ -15,9 +15,9 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    min-height: 15vh;
+    min-height: 10vh;
     background: #b54a50
-
+    
 }
 .home{
     margin-left: -4vw;
@@ -35,6 +35,15 @@ body {
 @media(max-width: 750px){
     .header{
         flex-direction: column;
+        min-height: 45vh;
+    }
+    .home{
+        margin:0;
+    }
+}
+@media(max-width: 550px){
+    .header{
+        flex-direction: column;
         min-height: 55vh;
     }
     .home{
@@ -47,4 +56,7 @@ button{
     color: white !important;
     border: #b54a50 !important;
  
+}
+i{
+    color: white;
 }
