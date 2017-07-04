@@ -65,3 +65,7 @@ button{
 .block-telephone {
      color: white !important;
 }
+.item-bed-system{
+    display: flex;
+    flex-direction: column;
+}
