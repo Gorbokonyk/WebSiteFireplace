@@ -29,7 +29,7 @@ body {
 }
 
 .footer {
-    min-height: 10vh;
+    min-height: 7vh;
     background: #666;
 }
 @media(max-width: 750px){
@@ -49,6 +49,10 @@ body {
     .home{
         margin:0;
     }
+    h1 {
+        font-size: 16px !important;
+    }
+    
 }
 
 button{
@@ -57,6 +61,7 @@ button{
     border: #b54a50 !important;
  
 }
-i{
-    color: white;
+
+.block-telephone {
+     color: white !important;
 }
